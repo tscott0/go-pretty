@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>vue.js test</title>
+  <meta name="description" content="">
+  <meta name="author" content="Tom Scott">
+
+  <link href="/s/css/main.css?v=1.0" rel="stylesheet">
+  <link href="/s/css/prism.css" rel="stylesheet" />
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<h1>prettify example</h1>
+	<h2>html</h2>
+	<pre class="prettyprint lang-html"><div id="example">
+			<div id="controls">
+				<button v-on:click="rendergo">GO</button>
+				<button v-on:click="rendercss">CSS</button>
+			</div>
+
+			<div id="divcode">
+				<pre id="precode"><code id="output" class="language-css">p { color: green }</code></pre>
+			</div>
+
+		</div>
+	</pre>
+
+	<h2>something else...</h2>
+	<pre class="prettyprint">class Voila {
+public:
+  // Voila
+  static const string VOILA = "Voila";
+
+  // will not interfere with embedded <a href="#voila2">tags</a>.
+}</pre>
+
+	<div id="example">
+		<div id="controls">
+			<button v-on:click="rendergo">GO</button>
+			<button v-on:click="rendercss">CSS</button>
+		</div>
+
+		<div id="divcode">
+			<pre id="precode"><code id="output" class="language-css">p { color: green }</code></pre>
+		</div>
+
+	</div>
+		<!--
+		   -<pre class="line-numbers"><code class="language-css">{{ message }}</code></pre>
+		   -->
+
+  <script src="/s/js/vue.js"></script>
+  <script src="/s/js/app.js"></script>
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+</body>
+</html>

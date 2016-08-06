@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+* { font-family: 'Source Sans Pro', Arial, sans-serif; }
+
+body {
+	margin: 0 auto;
+	max-width: 50em;
+	line-height: 1.5;
+	padding: 4em 1em;
+	color: #444;
+}
+
+h2 {
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+#app {
+	border: 3px solid green;
+	padding: 10px;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+  color: #3da23f;
+}
+
